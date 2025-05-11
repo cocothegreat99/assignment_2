@@ -72,7 +72,7 @@
       </plugins>
     </pluginManagement>
 
-<!-- configurazione per il processo di build della commit #3-->
+    <!-- configurazione per il processo di build della commit #3-->
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -81,6 +81,7 @@
             <configuration>
                 <configLocation>checkstyle.xml</configLocation>
                 <consoleOutput>true</consoleOutput>
+                <failOnViolation>true</failOnViolation>
             </configuration>
             <executions>
                 <execution>
