@@ -21,3 +21,10 @@ jobs:
 
       - name: Build with Maven and generate coverage report
         run: cd roman-number && mvn clean verify
+
+      - name: Upload coverage to Coveralls
+        uses: coverallsapp/github-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-lcov: roman-number/target/site/jacoco/jacoco.xml
+        
