@@ -100,7 +100,7 @@
           <configLocation>checkstyle.xml</configLocation>
           <consoleOutput>true</consoleOutput>
           <failOnViolation>true</failOnViolation>
-          <outputFile>target/checkstyle-report.html</outputFile> <!-- in caso togli -->
+          <outputFile>checkstyle-report.html</outputFile> <!-- in caso togli -->
         </configuration>
         <executions>
           <execution>

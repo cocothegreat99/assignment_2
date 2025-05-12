@@ -15,7 +15,7 @@ Ogni push nel repository attiva automaticamente un processo di build e testing t
 ![Build Status](https://github.com/cocothegreat99/assignment_2/actions/workflows/build.yml/badge.svg)
 
 # Analisi Statica del Codice
-L'analisi statica del codice è stata eseguita utilizzando **Checkstyle**. Puoi visualizzare i dettagli dell'analisi nel [report HTML](roman-number/target/checkstyle-report.html).
+L'analisi statica del codice è stata eseguita utilizzando **Checkstyle**. Puoi visualizzare i dettagli dell'analisi nel [report HTML](roman-number/checkstyle-report.html).
 
 # Coverage status
 [![Coverage Status](https://coveralls.io/repos/github/cocothegreat99/assignment_2/badge.svg?branch=main)](https://coveralls.io/github/cocothegreat99/assignment_2?branch=main)
